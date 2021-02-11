@@ -27,7 +27,7 @@ class _ListOfEmailsState extends State<ListOfEmails> {
     return Scaffold(
       key: _scaffoldKey,
       drawer: ConstrainedBox(
-        constraints: BoxConstraints(maxWidth: 250),
+        constraints: BoxConstraints(maxWidth: 300),
         child: SideMenu(),
       ),
       body: Container(
